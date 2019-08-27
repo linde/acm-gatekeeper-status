@@ -6,7 +6,7 @@ metadata:
 spec:
   clusterName: example-cluster-to-sync-crds
   git:
-    syncRepo: git@github.com:linde/nomos-acme-corp.git
+    syncRepo: git@github.com:linde/acm-gatekeeper-status.git
     secretType: ssh
     policyDir: config-root
-    syncBranch: nomos-spark-crd
+    syncBranch: master
